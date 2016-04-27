@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Encrypt</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+	
+
+<div id="header"></div>
+<div id="body">
+	<div id="selectDiv">Encrypt with:<select id="select"></select>key</div>
+	
+	Input:
+	<textarea name="message" id="textToEncrypt" rows="4" cols="50"></textarea>
+	Output: <input type="text" id="output" size=40 ><br>
+	
+</div>
+<script src="aes.js"></script>
+<script src="sjcl.js"></script>
+    <script src="popup_encrypt.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+

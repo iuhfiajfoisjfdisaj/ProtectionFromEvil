@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+	
+
+	<form action="" target="_blank" method="post" id="theform">
+		Keyname: <input type="text" id="keyName" size="35"><br>
+		Secret key: <input type="text" id="keyPhrase" size="35"><br>
+		HTML Encode? <input type="checkbox" id="htmlEncode" size="35"><br>
+		<br>
+	</form>
+<script src="aes.js"></script>
+<script src="sjcl.js"></script>
+    <script src="popup_addkey.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+
